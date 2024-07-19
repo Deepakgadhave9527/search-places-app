@@ -65,10 +65,12 @@ table {
 }
 
 thead th {
-  background-color: #f4f4f4;
   text-align: left;
   padding: 8px;
   font-weight: 700;
+  border-bottom: 1px solid black;
+
+
 }
 
 tbody td {

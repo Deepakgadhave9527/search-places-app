@@ -20,7 +20,7 @@ const Table = ({ data, loading, query }) => {
 
     return data.map((place, index) => (
       <tr key={place.id}>
-        <td>{index + 1}</td>
+        <td><b>{index + 1}</b></td>
         <td>{place.city}</td>
         <td><img src={`https://flagsapi.com/${place.countryCode}/flat/64.png`} alt={place.country} /></td>
       </tr>
